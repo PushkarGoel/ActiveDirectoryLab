@@ -74,7 +74,7 @@ Then download ISOs for Windows Server 2019 and Windows 10 based on your host sys
 <br />
 <p>
   <b>9.</b> Now that we have a client and server, I wanted to test out AD features by logging as different users. So I created a powershell script for creating users (to reduce the manual efforts) <br/>
-  The powershell script is in the repo : <add link> <br/>
+  The powershell script is in the repo : https://github.com/PushkarGoel/ActiveDirectoryLab/blob/main/1_CREATE_USERS.ps1 <br/>
   For that, I first created a list of random names and stored them in a text file <br/>
     <img src="https://i.imgur.com/jVUt2HG.png" height="50%" width="40%" alt="AD LAB"/> <br/> 
   I then fed them into my powershell script which created a new organizational unit _USERS and then added users into it with name  first letter of first name followed by the last name from the names in the list<br/>
